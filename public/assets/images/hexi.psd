@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head prefix='og: http://ogp.me/ns#'>
+<meta charset='utf-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='object' property='og:type'>
+<meta content='GitLab' property='og:site_name'>
+<meta content='Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd · master · UCLA-Coding-Boot-Camp / 06-16-Class-Content' property='og:title'>
+<meta content='Official repository for all student-facing exercises, activities, and homework assignments.' property='og:description'>
+<meta content='https://uclax.bootcampcontent.com/uploads/project/avatar/1/icon.png' property='og:image'>
+<meta content='https://uclax.bootcampcontent.com/UCLA-Coding-Boot-Camp/06-16-Class-Content/blob/master/Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd' property='og:url'>
+<meta content='summary' property='twitter:card'>
+<meta content='Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd · master · UCLA-Coding-Boot-Camp / 06-16-Class-Content' property='twitter:title'>
+<meta content='Official repository for all student-facing exercises, activities, and homework assignments.' property='twitter:description'>
+<meta content='https://uclax.bootcampcontent.com/uploads/project/avatar/1/icon.png' property='twitter:image'>
+
+<title>Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd · master · UCLA-Coding-Boot-Camp / 06-16-Class-Content · GitLab</title>
+<meta content='Official repository for all student-facing exercises, activities, and homework assignments.' name='description'>
+<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-075eba76312e8421991a0c1f89a89ee81678bcde72319dd3e8047e2a47cd3a42.ico" />
+<link rel="stylesheet" media="all" href="/assets/application-cfac18c411d70e400787563fd154166cc7a4c518616fd7d8e19798971c0cada6.css" />
+<link rel="stylesheet" media="print" href="/assets/print-68eed6d8135d858318821e790e25da27b2b4b9b8dbb1993fa6765d8e2e3e16ee.css" />
+<script src="/assets/application-52571672ad644e9182f4e84978caa4eddddd92f0859cc22cbf30ea4e7df7aff2.js"></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="P8sesKY8TZSlV/crHSqrRg5i9qYaD2AFPOhHgstLxS8oIDyeyKIGyj5I6mP9L8PmuVB6WnFTrniV40s9PKJVWA==" />
+<script>
+//<![CDATA[
+window.gon={};gon.api_version="v3";gon.default_avatar_url="https://uclax.bootcampcontent.com/assets/no_avatar-07eeb128b993e74003e8664cff0b8e1e7234cec0443766a6763df32ca3472c23.png";gon.default_issues_tracker="gitlab";gon.max_file_size=10;gon.relative_url_root="";gon.shortcuts_path="/help/shortcuts";gon.user_color_scheme="white";gon.current_user_id=50;gon.api_token="AGmXNyqKZgg4ZAfhjsNA";
+//]]>
+</script>
+<meta content='origin-when-cross-origin' name='referrer'>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
+<meta content='#474D57' name='theme-color'>
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-2d64ecc33893baab71adc15ff19a803a59911cc2651fb9d4d62af1379ff89aab.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-d08897d57e1bc9400024ac15465340e832a8e7b166b91624138d48ea2c739596.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-iphone-retina-81446c57f3351d1dacd0fb5f23ced74ba63d3878810bedea343999c6a12b3915.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/touch-icon-ipad-retina-e2a776da039936ac240e76615add47b25ab77c75a5fa2d1b3907f83d5502b911.png" sizes="152x152" />
+<link color='rgb(226, 67, 41)' href='/assets/logo-d36b5212042cebc89b96df4bf6ac24e43db316143e89926c0db839ff694d2de4.svg' rel='mask-icon'>
+<meta content='/assets/msapplication-tile-49c9c46afd2ab9bbf35e69138bc62f8c31fa55584bd494956ac6e58e6aadc813.png' name='msapplication-TileImage'>
+<meta content='#30353E' name='msapplication-TileColor'>
+
+
+
+
+<style>
+  [data-user-is] {
+    display: none !important;
+  }
+  
+  [data-user-is="50"] {
+    display: block !important;
+  }
+  
+  [data-user-is="50"][data-display="inline"] {
+    display: inline !important;
+  }
+  
+  [data-user-is-not] {
+    display: block !important;
+  }
+  
+  [data-user-is-not][data-display="inline"] {
+    display: inline !important;
+  }
+  
+  [data-user-is-not="50"] {
+    display: none !important;
+  }
+</style>
+
+</head>
+
+<body class='ui_charcoal' data-page='projects:blob:show'>
+<script>
+  window.project_uploads_path = "/UCLA-Coding-Boot-Camp/06-16-Class-Content/uploads";
+  window.markdown_preview_path = "/UCLA-Coding-Boot-Camp/06-16-Class-Content/markdown_preview";
+</script>
+
+<header class='header-expanded navbar navbar-fixed-top navbar-gitlab'>
+<div class='container-fluid'>
+<div class='header-content'>
+<button class='side-nav-toggle' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<i class="fa fa-bars"></i>
+</button>
+<button class='navbar-toggle' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<i class="fa fa-angle-left"></i>
+</button>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav'>
+<li class='hidden-sm hidden-xs'>
+<div class='has-location-badge search search-form'>
+<form class="navbar-form" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class='search-input-container'>
+<div class='search-location-badge'>
+<span class='location-badge'>
+<i class='location-text'>
+This project
+</i>
+</span>
+</div>
+<div class='search-input-wrap'>
+<div class='dropdown' data-url='/search/autocomplete'>
+<input type="search" name="search" id="search" placeholder="Search" class="search-input dropdown-menu-toggle" spellcheck="false" tabindex="1" autocomplete="off" data-toggle="dropdown" />
+<div class='dropdown-menu dropdown-select'>
+<div class="dropdown-content"><ul>
+<li>
+<a class='is-focused dropdown-menu-empty-link'>
+Loading...
+</a>
+</li>
+</ul>
+</div><div class="dropdown-loading"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+<i class='search-icon'></i>
+<i class='clear-icon js-clear-input'></i>
+</div>
+</div>
+</div>
+<input type="hidden" name="group_id" id="group_id" />
+<input type="hidden" name="project_id" id="search_project_id" value="1" />
+<input type="hidden" name="search_code" id="search_code" value="true" />
+<input type="hidden" name="repository_ref" id="repository_ref" value="master" />
+
+<div class='search-autocomplete-opts hide' data-autocomplete-path='/search/autocomplete' data-autocomplete-project-id='1' data-autocomplete-project-ref='master'></div>
+</form>
+
+</div>
+
+</li>
+<li class='visible-sm visible-xs'>
+<a title="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/search"><i class="fa fa-search"></i>
+</a></li>
+<li>
+<a title="Todos" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/dashboard/todos"><i class="fa fa-bell fa-fw"></i>
+</a></li>
+<li>
+<a title="New project" data-toggle="tooltip" data-placement="bottom" data-container="body" href="/projects/new"><i class="fa fa-plus fa-fw"></i>
+</a></li>
+<li>
+<a class="logout" title="Sign out" data-toggle="tooltip" data-placement="bottom" data-container="body" rel="nofollow" data-method="delete" href="/users/sign_out"><i class="fa fa-sign-out"></i>
+</a></li>
+</ul>
+</div>
+<h1 class='title'><a href="/groups/UCLA-Coding-Boot-Camp">UCLA-Coding-Boot-Camp</a> / <a class="project-item-select-holder" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content">06-16-Class-Content</a><i data-target=".js-dropdown-menu-projects" data-toggle="dropdown" class="fa fa-chevron-down dropdown-toggle-caret js-projects-dropdown-toggle"></i> &middot; <a href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/tree/master">Files</a></h1>
+<div class='js-dropdown-menu-projects'>
+<div class='dropdown-menu dropdown-select dropdown-menu-projects'>
+<div class="dropdown-title"><span>Go to a project</span><button class="dropdown-title-button dropdown-menu-close" aria-label="Close" type="button"><i class="fa fa-times dropdown-menu-close-icon"></i></button></div>
+<div class="dropdown-input"><input type="search" id="" class="dropdown-input-field" placeholder="Search your projects" /><i class="fa fa-search dropdown-input-search"></i><i role="button" class="fa fa-times dropdown-input-clear js-dropdown-input-clear"></i></div>
+<div class="dropdown-content"></div>
+<div class="dropdown-loading"><i class="fa fa-spinner fa-spin"></i></div>
+</div>
+</div>
+
+</div>
+</div>
+</header>
+
+<script>
+  var findFileURL = "/UCLA-Coding-Boot-Camp/06-16-Class-Content/find_file/master";
+</script>
+
+<div class='page-sidebar-expanded page-with-sidebar'>
+<div class='nicescroll sidebar-expanded sidebar-wrapper'>
+<div class='header-logo'>
+<a id='logo'>
+<svg width="36" height="36" id="tanuki-logo">
+  <path id="tanuki-right-ear" class="tanuki-shape" fill="#e24329" d="M2 14l9.38 9v-9l-4-12.28c-.205-.632-1.176-.632-1.38 0z"/>
+  <path id="tanuki-left-ear" class="tanuki-shape" fill="#e24329" d="M34 14l-9.38 9v-9l4-12.28c.205-.632 1.176-.632 1.38 0z"/>
+  <path id="tanuki-nose" class="tanuki-shape" fill="#e24329" d="M18,34.38 3,14 33,14 Z"/>
+  <path id="tanuki-right-eye" class="tanuki-shape" fill="#fc6d26" d="M18,34.38 11.38,14 2,14 6,25Z"/>
+  <path id="tanuki-left-eye" class="tanuki-shape" fill="#fc6d26" d="M18,34.38 24.62,14 34,14 30,25Z"/>
+  <path id="tanuki-right-cheek" class="tanuki-shape" fill="#fca326" d="M2 14L.1 20.16c-.18.565 0 1.2.5 1.56l17.42 12.66z"/>
+  <path id="tanuki-left-cheek" class="tanuki-shape" fill="#fca326" d="M34 14l1.9 6.16c.18.565 0 1.2-.5 1.56L18 34.38z"/>
+</svg>
+
+</a>
+<a class="gitlab-text-container-link" title="Dashboard" id="js-shortcuts-home" href="/"><div class='gitlab-text-container'>
+<h3>GitLab</h3>
+</div>
+</a></div>
+<ul class='nav nav-sidebar'>
+<li class=""><a title="Go to group" class="back-link" href="/groups/UCLA-Coding-Boot-Camp"><i class="fa fa-caret-square-o-left fa-fw"></i>
+<span>
+Go to group
+</span>
+</a></li><li class='separate-item'></li>
+<li class="home"><a title="Project" class="shortcuts-project" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content"><i class="fa fa-bookmark fa-fw"></i>
+<span>
+Project
+</span>
+</a></li><li class=""><a title="Activity" class="shortcuts-project-activity" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/activity"><i class="fa fa-dashboard fa-fw"></i>
+<span>
+Activity
+</span>
+</a></li><li class="active"><a title="Files" class="shortcuts-tree" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/tree/master"><i class="fa fa-files-o fa-fw"></i>
+<span>
+Files
+</span>
+</a></li><li class=""><a title="Commits" class="shortcuts-commits" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/commits/master"><i class="fa fa-history fa-fw"></i>
+<span>
+Commits
+</span>
+</a></li><li class=""><a title="Graphs" class="shortcuts-graphs" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/graphs/master"><i class="fa fa-area-chart fa-fw"></i>
+<span>
+Graphs
+</span>
+</a></li><li class=""><a title="Members" class="team-tab tab" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/project_members"><i class="fa fa-users fa-fw"></i>
+<span>
+Members
+</span>
+</a></li><li class=""><a title="Forks" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/forks"><i class="fa fa-code-fork fa-fw"></i>
+<span>
+Forks
+</span>
+</a></li><li class=""><a title="Snippets" class="shortcuts-snippets" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/snippets"><i class="fa fa-clipboard fa-fw"></i>
+<span>
+Snippets
+</span>
+</a></li><li class='hidden'>
+<a title="Network" class="shortcuts-network" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/network/master">Network
+</a></li>
+<li class='hidden'>
+<a class="shortcuts-new-issue" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/issues/new">Create a new issue
+</a></li>
+</ul>
+
+<div class='collapse-nav'>
+<a class="toggle-nav-collapse" title="Open/Close" href="#"><i class="fa fa-angle-left"></i></a>
+
+</div>
+<a class="sidebar-user" title="Profile" href="/u/toddcf"><img alt="Profile" class="avatar avatar s36" src="https://uclax.bootcampcontent.com/uploads/user/avatar/50/avatar.png" />
+<div class='username'>
+toddcf
+</div>
+</a></div>
+<div class='content-wrapper controls-dropdown-visible'>
+
+
+<div class='flash-container'>
+</div>
+
+
+<div class='container-fluid container-limited'>
+<div class='content'>
+<div class='clearfix'>
+
+
+<div class='tree-holder' id='tree-holder'>
+<div class='nav-block'>
+<div class='tree-ref-holder'>
+<form class="project-refs-form" action="/UCLA-Coding-Boot-Camp/06-16-Class-Content/refs/switch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<select name="ref" id="ref" class="project-refs-select select2 select2-sm"><optgroup label="Branches"><option value="10-05-solutions">10-05-solutions</option>
+<option selected="selected" value="master">master</option>
+<option value="first_day">first_day</option>
+<option value="mjensen/hw2-remove-heroku-instructions">mjensen/hw2-remove-heroku-instructions</option>
+<option value="patch-1">patch-1</option></optgroup><optgroup label="Tags"></optgroup></select>
+<input type="hidden" name="destination" id="destination" value="blob" />
+<input type="hidden" name="path" id="path" value="Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd" />
+</form>
+
+
+</div>
+<ul class='breadcrumb repo-breadcrumb'>
+<li>
+<a href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/tree/master">06-16-Class-Content
+</a></li>
+<li>
+<a href="#">..</a>
+</li>
+<li>
+<a href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/tree/master/Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images">images</a>
+</li>
+<li>
+<a href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/blob/master/Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd"><strong>
+hexi.psd
+</strong>
+</a></li>
+</ul>
+</div>
+<ul class='blob-commit-info hidden-xs'>
+<li class='commit js-toggle-container' id='commit-0b672d7e'>
+<div class='commit-row-title'>
+<span class='item-title'>
+<a class="commit-row-message" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/commit/0b672d7ec0d6a945f529d8bd2a548f2e3ffb6498">add solutions and videos</a>
+</span>
+<div class='pull-right'>
+<button class="btn btn-clipboard" data-clipboard-text="0b672d7ec0d6a945f529d8bd2a548f2e3ffb6498" type="button"><i class="fa fa-clipboard"></i></button>
+<a class="commit_short_id" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/commit/0b672d7ec0d6a945f529d8bd2a548f2e3ffb6498">0b672d7e</a>
+</div>
+</div>
+<div class='commit-row-info'>
+by
+<a class="commit-author-link has-tooltip" title="omarpatel123@gmail.com" href="mailto:omarpatel123@gmail.com"><img class="avatar s24" width="24" alt="" src="https://secure.gravatar.com/avatar/8094174a7131de8e67006be7a6d4114c?s=48&amp;d=identicon" /> <span class="commit-author-name">Omar Patel</span></a>
+<div class='committed_ago'>
+<time class="time_ago js-timeago js-timeago-pending" datetime="2016-10-07T04:58:39Z" title="Oct 7, 2016 4:58am" data-toggle="tooltip" data-placement="top" data-container="body">2016-10-06 21:58:39 -0700</time><script>
+//<![CDATA[
+$('.js-timeago-pending').removeClass('js-timeago-pending').timeago()
+//]]>
+</script> &nbsp;
+</div>
+<a class="pull-right" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/tree/0b672d7ec0d6a945f529d8bd2a548f2e3ffb6498">Browse Files</a>
+</div>
+</li>
+
+</ul>
+<div class='blob-content-holder' id='blob-content-holder'>
+<article class='file-holder'>
+<div class='file-title'>
+<i class="fa fa-file-text-o fa-fw"></i>
+<strong>
+hexi.psd
+</strong>
+<small>
+54.7 KB
+</small>
+<div class='file-actions hidden-xs'>
+<div class='btn-group tree-btn-group'>
+<a class="btn btn-sm" target="_blank" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/raw/master/Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd">Raw</a>
+<a class="btn btn-sm" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/commits/master/Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd">History</a>
+<a class="btn btn-sm" href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/blob/9546492de8f5b1700030d34b642530d856e2d05f/Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd">Permalink</a>
+</div>
+<div class='btn-group' role='group'>
+
+<button name="button" type="submit" class="btn btn-default" data-target="#modal-upload-blob" data-toggle="modal">Replace</button>
+<button name="button" type="submit" class="btn btn-remove" data-target="#modal-remove-blob" data-toggle="modal">Delete</button>
+</div>
+
+</div>
+</div>
+<div class='file-content blob_file blob-no-preview'>
+<div class='center'>
+<a href="/UCLA-Coding-Boot-Camp/06-16-Class-Content/raw/master/Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd"><h1 class='light'>
+<i class='fa fa-download'></i>
+</h1>
+<h4>
+Download (54.7 KB)
+</h4>
+</a></div>
+</div>
+
+</article>
+</div>
+
+</div>
+<div class='modal' id='modal-remove-blob'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<a class='close' data-dismiss='modal' href='#'>×</a>
+<h3 class='page-title'>Delete hexi.psd</h3>
+</div>
+<div class='modal-body'>
+<form class="form-horizontal js-replace-blob-form js-quick-submit js-requires-input" action="/UCLA-Coding-Boot-Camp/06-16-Class-Content/blob/master/Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="Tq56K6vBfm/09sZ3ifxrqCEhzZQKfNpsRHWHQwDkRQ1ZRVgFxV81MW/p2z9p+QMIlhNBaGEgFBHtfov89w3Veg==" />
+<div class='form-group commit_message-group'>
+<label class="control-label" for="commit_message-059e3135319741ee0670de31be489e82">Commit message
+</label><div class='col-sm-10'>
+<div class='commit-message-container'>
+<div class='max-width-marker'></div>
+<textarea name="commit_message" id="commit_message-059e3135319741ee0670de31be489e82" class="form-control js-commit-message" placeholder="Delete hexi.psd" required="required" rows="3">
+Delete hexi.psd</textarea>
+</div>
+</div>
+</div>
+
+<div class='form-group branch'>
+<label class="control-label" for="target_branch">Target branch</label>
+<div class='col-sm-10'>
+<input type="text" name="target_branch" id="target_branch" value="patch-2" required="required" class="form-control js-target-branch" />
+<div class='js-create-merge-request-container'>
+<div class='checkbox'>
+<label for="create_merge_request-3063f708e4c97b2eb11b591a55b29ef4"><input type="checkbox" name="create_merge_request" id="create_merge_request-3063f708e4c97b2eb11b591a55b29ef4" value="1" class="js-create-merge-request" checked="checked" />
+Start a <strong>new merge request</strong> with these changes
+</label></div>
+</div>
+</div>
+</div>
+<input type="hidden" name="original_branch" id="original_branch" value="master" class="js-original-branch" />
+
+<div class='form-group'>
+<div class='col-sm-offset-2 col-sm-10'>
+<button name="button" type="submit" class="btn btn-remove btn-remove-file">Delete file</button>
+<a class="btn btn-cancel" data-dismiss="modal" href="#">Cancel</a>
+</div>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+<script>
+  new NewCommitForm($('.js-replace-blob-form'))
+</script>
+
+<div class='modal' id='modal-upload-blob'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<a class='close' data-dismiss='modal' href='#'>×</a>
+<h3 class='page-title'>Replace hexi.psd</h3>
+</div>
+<div class='modal-body'>
+<form class="js-quick-submit js-upload-blob-form form-horizontal" action="/UCLA-Coding-Boot-Camp/06-16-Class-Content/update/master/Homework/week-14-HW/Solutions/BurgerSolution/public/assets/images/hexi.psd" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="EtFoiYZd2d7v1XfdWDgi0fxvGEvJmDkfi+JxmTRgXlgFOkqn6MOSgHTKapW4PUpxS12Ut6LE92Ii6X0mw4nOLw==" />
+<div class='dropzone'>
+<div class='dropzone-previews blob-upload-dropzone-previews'>
+<p class='dz-message light'>
+Attach a file by drag &amp; drop or
+<a class="markdown-selector" href="#">click to upload</a>
+</p>
+</div>
+</div>
+<br>
+<div class='alert alert-danger data dropzone-alerts' style='display:none'></div>
+<div class='form-group commit_message-group'>
+<label class="control-label" for="commit_message-1896ea3c3f2ab970863722e644c30424">Commit message
+</label><div class='col-sm-10'>
+<div class='commit-message-container'>
+<div class='max-width-marker'></div>
+<textarea name="commit_message" id="commit_message-1896ea3c3f2ab970863722e644c30424" class="form-control js-commit-message" placeholder="Replace hexi.psd" required="required" rows="3">
+Replace hexi.psd</textarea>
+</div>
+</div>
+</div>
+
+<div class='form-group branch'>
+<label class="control-label" for="target_branch">Target branch</label>
+<div class='col-sm-10'>
+<input type="text" name="target_branch" id="target_branch" value="patch-2" required="required" class="form-control js-target-branch" />
+<div class='js-create-merge-request-container'>
+<div class='checkbox'>
+<label for="create_merge_request-a0567447b580f4e7d25909cf8f447cca"><input type="checkbox" name="create_merge_request" id="create_merge_request-a0567447b580f4e7d25909cf8f447cca" value="1" class="js-create-merge-request" checked="checked" />
+Start a <strong>new merge request</strong> with these changes
+</label></div>
+</div>
+</div>
+</div>
+<input type="hidden" name="original_branch" id="original_branch" value="master" class="js-original-branch" />
+
+<div class='form-actions'>
+<button name="button" type="submit" class="btn btn-small btn-create btn-upload-file" id="submit-all">Replace file</button>
+<a class="btn btn-cancel" data-dismiss="modal" href="#">Cancel</a>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+<script>
+  disableButtonIfEmptyField($('.js-upload-blob-form').find('.js-commit-message'), '.btn-upload-file');
+  new BlobFileDropzone($('.js-upload-blob-form'), 'put');
+  new NewCommitForm($('.js-upload-blob-form'))
+</script>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
+
