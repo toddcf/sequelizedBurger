@@ -1,8 +1,12 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var methodOverride = require('method-override')
-
+var methodOverride = require('method-override');
+var path = require('path');
+var routes = require('./controllers/burgers_controller.js');
 var app = express();
+var models = require('./models');
+var sequelizeConnection = models.sequelize;
+
 //Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static(__dirname + '/public'));
 
@@ -17,8 +21,6 @@ app.engine('handlebars', exphbs({
     defaultLayout: 'main'
 }));
 app.set('view engine', 'handlebars');
-
-var routes = require('./controllers/burgers_controller.js');
 
 app.use('/', routes);
 app.use('/update', routes);
